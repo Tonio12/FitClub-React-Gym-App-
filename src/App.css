@@ -40,3 +40,11 @@
 .btn:hover {
   cursor: pointer;
 }
+
+.blur {
+  background-color: rgba(253, 120, 43, 0.69);
+  border-radius: 50%;
+  z-index: -9;
+  position: absolute;
+  filter: blur(150px);
+}

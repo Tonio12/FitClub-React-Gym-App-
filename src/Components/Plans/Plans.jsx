@@ -5,8 +5,10 @@ import tic from "../../assets/whiteTick.png";
 import rightArrow from "../../assets/rightArrow.png";
 function Plans() {
   return (
-    <div className="plan-container">
-      <div className="plan-header">
+    <div className="plan-container" id="plans">
+      <div className="blur plan-blur-1"></div>
+      <div className="blur plan-blur-2"></div>
+      <div className="program-header">
         <span className="stroke-text">Ready to start</span>
         <span>your journey</span>
         <span className="stroke-text">with us</span>
